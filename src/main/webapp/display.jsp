@@ -31,7 +31,7 @@
 	
 	<div style="padding: 8px; border: 1px solid red">
 		<c:forEach items="${students }" var="s">
-			${s } <br>
+			${s.name } <br>
 		</c:forEach>
 	</div>
 	
